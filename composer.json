@@ -1,0 +1,37 @@
+{
+    "name": "qdiaps/ping",
+    "version": "0.0.1",
+    "description": "Ping",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "qdiaps",
+            "email": "qdiaps@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.4"
+    },
+    "require-dev": {
+        "pestphp/pest": "^3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Qdiaps\\Ping\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Qdiaps\\Ping\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "pest"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
