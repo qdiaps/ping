@@ -25,3 +25,4 @@ npm-debug.log
 Thumbs.db
 yarn-error.log
 supervisord.pid
+.phpdoc
